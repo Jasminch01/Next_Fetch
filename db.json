@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Exploring Nature",
+      "description": "A breathtaking journey through lush forests, meandering rivers, and towering mountains. Discover the wonders of the great outdoors.",
+      "likes": 120
+    },
+    {
+      "id": 2,
+      "title": "Gourmet Delights",
+      "description": "Indulge in a culinary adventure with exquisite flavors and tantalizing aromas. Savor the artistry of master chefs and unique gastronomic experiences.",
+      "likes": 98
+    },
+    {
+      "id": 3,
+      "title": "Tech Innovations",
+      "description": "Dive into the world of cutting-edge technology. Explore the latest gadgets, innovations, and breakthroughs shaping the future of our digital lives.",
+      "likes": 215
+    },
+    {
+      "id": 4,
+      "title": "Mindful Living",
+      "description": "Embrace a mindful and balanced lifestyle. Learn practical tips for stress reduction, mindfulness, and holistic well-being.",
+      "likes": 76
+    },
+    {
+      "id": 5,
+      "title": "Artistic Expressions",
+      "description": "Immerse yourself in the beauty of artistic creations. From classical masterpieces to contemporary works, explore the diverse world of art.",
+      "likes": 180
+    },
+    {
+      "id": 6,
+      "title": "Epic Adventures",
+      "description": "Embark on epic journeys to far-off lands and hidden treasures. Experience the thrill of exploration and the excitement of untold adventures.",
+      "likes": 150
+    }
+  ]
+}
