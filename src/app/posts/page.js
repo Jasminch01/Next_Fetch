@@ -1,6 +1,8 @@
 const page = async () => {
   const res = await fetch("http://localhost:3004/posts", {
-    cache: "force-cache",
+    // cache: "force-cache", for static site genaration ssg
+    cache : 'no-store'
+    //for SSR server site randering
   });
   const posts = await res.json();
 //   console.log(posts);
