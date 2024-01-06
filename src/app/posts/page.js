@@ -3,10 +3,10 @@ const page = async () => {
     cache: "force-cache",
   });
   const posts = await res.json();
-  console.log(posts);
+//   console.log(posts);
   return (
     <div className="">
-      <h1 className="text-xl">Total Posts : {posts.length}</h1>
+      <h1 className="text-xl">Total Postssss : {posts.length}</h1>
       <div className="grid-cols-3 grid space-y-3 space-x-3">
         {posts.map((post) => (
           <div key={post.id}>
