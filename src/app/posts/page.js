@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const page = async () => {
   const res = await fetch("http://localhost:3004/posts", {
     // cache: "force-cache", for static site genaration ssg
@@ -18,6 +20,7 @@ const page = async () => {
                 <p>{post.description}</p>
                 <p>Likes : {post.likes}</p>
               </div>
+              <Link href={`/posts/${post.id}`}> <button className="btn-primary btn">See more</button> </Link>
             </div>
           </div>
         ))}
